@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Home"
+        android:id="@+id/i1"/>
+    <item android:title="login"
+        android:id="@+id/i2"/>
+    <item android:title="Registration"
+        android:id="@+id/i3"/>
+    <item android:title="contact"
+        android:id="@+id/i4"/>
+
+    <item android:title="share"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_baseline_share_24"
+        android:id="@+id/i5"/>
+</menu>

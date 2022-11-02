@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="4"
+        android:orientation="horizontal">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_columnSpan="4"
+            android:hint="mania"></EditText>
+    </GridLayout>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+    </Space>
+
+
+
+
+    <GridLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:columnCount="4">
+
+        <Button
+            android:id="@+id/one"
+            android:text="1">
+        </Button>
+
+        <Button
+            android:id="@+id/two"
+            android:text="2">
+        </Button>
+
+        <Button
+            android:id="@+id/three"
+            android:text="3">
+        </Button>
+
+        <Button
+            android:id="@+id/plus"
+            android:text="+">
+        </Button>
+
+    </GridLayout>
+
+    <GridLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:columnCount="4">
+
+        <Button
+            android:id="@+id/four"
+            android:text="4">
+        </Button>
+
+        <Button
+            android:id="@+id/five"
+            android:text="5">
+        </Button>
+
+        <Button
+            android:id="@+id/six"
+            android:text="6">
+        </Button>
+
+        <Button
+            android:id="@+id/minus"
+            android:text="-">
+        </Button>
+
+    </GridLayout>
+
+
+    <GridLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:columnCount="4">
+
+        <Button
+            android:id="@+id/seven"
+            android:text="7">
+        </Button>
+
+        <Button
+            android:id="@+id/eight"
+            android:text="8">
+        </Button>
+
+        <Button
+            android:id="@+id/nine"
+            android:text="9">
+        </Button>
+
+        <Button
+            android:id="@+id/mul"
+            android:text="*">
+        </Button>
+
+    </GridLayout>
+    <GridLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:columnCount="4">
+
+        <Button
+            android:id="@+id/zero"
+            android:text="0">
+        </Button>
+
+        <Button
+            android:id="@+id/div"
+            android:text="/">
+        </Button>
+
+        <Button
+            android:id="@+id/equal"
+            android:text="=">
+        </Button>
+
+        <Button
+            android:id="@+id/clear"
+            android:text="clear">
+        </Button>
+
+    </GridLayout>
+
+
+
+
+</GridLayout>
+
+

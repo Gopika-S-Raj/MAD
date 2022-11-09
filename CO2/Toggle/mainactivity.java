@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
         img1=findViewById(R.id.img1);
         img2=findViewById(R.id.img2);
         img1.setOnClickListener(this:: onClick);
-        img1.setOnClickListener(this:: onClick);
+        img2.setOnClickListener(this:: onClick);
     }
 
     private void onClick(View view) {
